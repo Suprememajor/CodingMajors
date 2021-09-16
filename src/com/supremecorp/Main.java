@@ -1,15 +1,15 @@
 package com.supremecorp;
 
-import com.supremecorp.week1.TwoSum;
+import com.supremecorp.week1.SortedArrayDuplicates;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println(TwoSum.twoSum(new int[]{2, 7, 11, 15}, 9));
-        System.out.println(TwoSum.twoSum(new int[]{3, 2, 4}, 6));
-        System.out.println(TwoSum.twoSum(new int[]{3, 3}, 6));
-        System.out.println(TwoSum.twoSum(new int[]{-23, -10, 15, 11, -30, 0}, -8));
-        System.out.println(TwoSum.twoSum(new int[]{3, 6, 9, -8}, 1));
+        System.out.println(SortedArrayDuplicates.removeDuplicates(new int[]{1, 1, 2}));
+        System.out.println(SortedArrayDuplicates.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}));
+        System.out.println(SortedArrayDuplicates.removeDuplicates(new int[]{-45, -30, -23, -23, -23, 0, 0, 3, 3, 4}));
+        System.out.println(SortedArrayDuplicates.removeDuplicates(new int[]{21, 21, 114, 116, 116, 200, 203, 203}));
+        System.out.println(SortedArrayDuplicates.removeDuplicates(new int[]{-100, -90, -90, -65, -65, -45, -45, -8}));
     }
 }
